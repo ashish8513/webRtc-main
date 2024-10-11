@@ -17,3 +17,4 @@ This is a simple project to practice WebRTC (Web Real-Time Communication) by est
 - **CSS/ TailwindCSS** - For basic styling. //checkout in the code
 
 # Home Page 
+<p align="center"> <img src="https://github.com/ashish8513/webRtc-main/blob/main/Home.png" alt="Payment Form" width="800"> </p> 
