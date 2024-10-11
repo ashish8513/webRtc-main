@@ -1,8 +1,19 @@
-# React + Vite
+# WebRTC Practice Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple project to practice WebRTC (Web Real-Time Communication) by establishing peer-to-peer communication between two users. The project uses `React` and `WebRTC` to set up audio and video streams.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Real-time video streaming using WebRTC.
+- Peer-to-peer connection establishment.
+- Muted streams for testing purposes.
+- Simple user interface with React.js.
+
+## Technologies Used
+
+- **React.js** - Frontend framework.
+- **WebRTC** - Web Real-Time Communication for peer-to-peer streaming.
+- **ReactPlayer** - To embed video streams.
+- **CSS/ TailwindCSS** - For basic styling. //checkout in the code
+
+# Home Page 
