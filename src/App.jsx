@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import "./App.css";
 import Home from "./screens/Home";
 import VideoRoom from "./screens/VideoRoom";
 
@@ -11,7 +10,7 @@ function App() {
         <div className="container mx-auto px-4 py-8">
           <Routes>
             <Route path="/" exact element={<Home />} />
-            <Route path="/room/:roomId" exact element={<VideoRoom />} />
+            <Route path="/room" exact element={<VideoRoom />} />
           </Routes>
         </div>
       </div>
