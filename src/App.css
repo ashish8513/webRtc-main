@@ -1,13 +1,11 @@
-/* General Styles */
 body {
-    font-family: 'Inter', sans-serif; /* Tailwind uses this by default, customize if needed */
-    background-color: #3399cc; /* Slightly off-white background for better readability */
+    font-family: 'Inter', sans-serif;
+    background-color: #3399cc;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* App Container */
   .App {
     display: flex;
     flex-direction: column;
@@ -16,22 +14,19 @@ body {
     align-items: center;
   }
   
-  /* Form Specific Customizations */
   input, button {
     outline: none;
   }
   
-  /* Button Hover Effects */
   button {
     transition: background-color 0.3s ease, transform 0.2s ease;
   }
   
   button:hover {
-    background-color: #2563eb; /* Deepen the blue color on hover */
-    transform: scale(1.05); /* Slight zoom effect */
+    background-color: #2563eb; 
+    transform: scale(1.05);
   }
   
-  /* Custom Media Queries for Additional Responsiveness */
   @media (max-width: 768px) {
     .App {
       padding: 10px;
@@ -42,18 +37,16 @@ body {
     }
   
     input, button {
-      width: 100%; /* Ensure inputs and buttons span full width on smaller screens */
+      width: 100%; 
     }
   }
   
-  /* Custom Classes for React Player */
   .react-player {
-    border-radius: 0.5rem; /* Slight rounding on video players */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow to video players */
+    border-radius: 0.5rem; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
-  /* Override Tailwind for certain utilities */
   .text-blue-500 {
-    color: #3b82f6 !important; /* Enforcing the specific blue on texts if required */
+    color: #3b82f6 !important; 
   }
   
